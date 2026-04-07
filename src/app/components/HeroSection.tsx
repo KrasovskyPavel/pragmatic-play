@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import {Play} from 'lucide-react';
 import heroImage from '../../assets/6535dfccb985fe306e479887b223a32230f8ee24.png';
 
@@ -6,10 +7,14 @@ export default function HeroSection() {
         <section className="bg-black flex items-center justify-center relative overflow-hidden h-[560px] min-[1000px]:h-screen">
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
-                <img
+                <Image
                     src={heroImage}
                     alt="Drops & Wins"
-                    className="w-full h-full object-cover min-[1000px]:object-contain"
+                    fill
+                    priority
+                    quality={100}
+                    sizes="100vw"
+                    className="w-full h-full object-cover"
                 />
             </div>
 

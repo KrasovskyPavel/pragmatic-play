@@ -1,6 +1,8 @@
+'use client';
+
 import { motion, AnimatePresence } from 'motion/react';
 import { X, Gift, ExternalLink } from 'lucide-react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 export function StickyBonusBanner() {
   const [isVisible, setIsVisible] = useState(true);

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import logo from "../../imports/PP-white-logo.svg";
 
 interface HeaderProps {
@@ -10,11 +11,12 @@ export default function Header({ variant = "dark" }: HeaderProps) {
       <div className="max-w-[1440px] mx-auto flex items-center justify-between relative">
         {/* Logo */}
         <div className="flex items-center gap-2 absolute left-1/2 transform -translate-x-1/2 lg:left-12 lg:transform-none">
-          <img 
+          <Image
             src={logo}
-            alt="Pragmatic Play logo" 
+            alt="Pragmatic Play logo"
+            priority
             className="h-[73px] w-[159px]"
-            style={{ width: '159px', height: '73px' }}
+            style={{ width: "159px", height: "73px" }}
           />
         </div>
         {/* Desktop: Get Bonus Button */}

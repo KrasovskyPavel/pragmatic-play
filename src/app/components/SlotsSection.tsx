@@ -1,3 +1,4 @@
+import Image from "next/image";
 import bigBass from '../../assets/1cc1c34ffb9d1380c7bc9abf68dd63f77c2c7b2e.png';
 import fortuneOlympus from '../../assets/bced985d5f72b9c5ed54d2974fb29e3d9e83962b.png';
 import sweetRush from '../../assets/c711520c727e167230acadbcf39197eadc51257e.png';
@@ -67,9 +68,11 @@ export default function SlotsSection() {
                                         padding: '6px',
                                     }}>
                                     <div className="w-full h-full rounded-lg overflow-hidden">
-                                        <img
+                                        <Image
                                             src={slot.image}
                                             alt={slot.title}
+                                            fill
+                                            sizes="(max-width: 768px) 290px, 290px"
                                             className="w-full h-full object-cover"
                                         />
                                     </div>

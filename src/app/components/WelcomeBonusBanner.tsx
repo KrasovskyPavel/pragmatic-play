@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { Play, Gift, TrendingUp } from 'lucide-react';
 import { ExternalLink } from 'lucide-react';
