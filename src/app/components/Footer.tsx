@@ -17,12 +17,9 @@ export default function Footer() {
         <div className="text-center text-gray-400 text-xs md:text-sm mb-6 md:mb-8 px-4 leading-relaxed max-w-4xl mx-auto">
           <p>
             COPYRIGHT © 2015 – 2026. All rights reserved to Pragmatic Play, a{" "}
-            <a
-              href="#"
-              className="text-cyan-400 hover:text-cyan-300 hover:underline transition-colors"
-            >
+            <span className="text-cyan-400 hover:text-cyan-300 hover:underline transition-colors">
               Veridian (Gibraltar) Limited
-            </a>{" "}
+            </span>{" "}
             investment. Any and all content included on this website or incorporated by reference is
             protected by international copyright laws.
           </p>

@@ -32,6 +32,9 @@ const websiteSchema = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://pragmatic-play.example"),
+  alternates: {
+    canonical: "https://pragmaticplay-demo.uk/",
+  },
   title: "Pragmatic Play Slots — Play Free Demo Games & Online Slots",
   description:
     "Access best Pragmatic Play slots online. Play free demo versions of Gates of Olympus and Sweet Bonanza. Explore high RTP games, bonus features, and live casinos.",
@@ -66,7 +69,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en-GB">
       <body>
         <script
           type="application/ld+json"
