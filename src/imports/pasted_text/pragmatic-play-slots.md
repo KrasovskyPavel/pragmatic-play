@@ -102,7 +102,7 @@ Free Spins – Usually tied to specific slot games
 Deposit Match Bonuses – Casino matches a percentage of your deposit
 No Deposit Bonuses – Small credits to start playing without a deposit
 Bonuses enhance the gaming experience, allowing players to explore more games and increase their chances of winning without extra cost.
-FAQ 
+FAQ
 What is Pragmatic Play?
 It’s a leading provider of online slots, live casino games, and demo play versions.
 Can I play Pragmatic Play slots for free?

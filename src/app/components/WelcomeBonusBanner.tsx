@@ -1,18 +1,21 @@
-'use client';
+"use client";
 
-import { motion } from 'motion/react';
-import { Play, Gift, TrendingUp } from 'lucide-react';
-import { ExternalLink } from 'lucide-react';
+import { motion } from "motion/react";
+import { Play, Gift, TrendingUp } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 export function WelcomeBonusBanner() {
   return (
     <section className="py-12 sm:py-14 md:py-16 lg:py-20 bg-gradient-to-r from-orange-500 via-orange-600 to-red-600 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0" style={{
-          backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)',
-          backgroundSize: '30px 30px'
-        }}></div>
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: "radial-gradient(circle, white 1px, transparent 1px)",
+            backgroundSize: "30px 30px",
+          }}
+        ></div>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -39,8 +42,8 @@ export function WelcomeBonusBanner() {
 
           {/* Subheading */}
           <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-4">
-            Join now and claim your exclusive welcome bonus! Play our premium
-            slots and win big at the best online casinos.
+            Join now and claim your exclusive welcome bonus! Play our premium slots and win big at
+            the best online casinos.
           </p>
 
           {/* Features */}

@@ -20,7 +20,7 @@ export default function Header({ variant = "dark" }: HeaderProps) {
           />
         </div>
         {/* Desktop: Get Bonus Button */}
-        <a 
+        <a
           href="https://bestslotgames.top/PbvqCSBq"
           rel="nofollow"
           className="hidden lg:block bg-orange-500 hover:bg-orange-600 text-white px-4 md:px-6 lg:px-8 py-2 md:py-3 rounded-full font-semibold transition-colors text-sm md:text-base ml-auto"

@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { motion, AnimatePresence } from 'motion/react';
-import { X, Gift, ExternalLink } from 'lucide-react';
-import { useState } from 'react';
+import { motion, AnimatePresence } from "motion/react";
+import { X, Gift, ExternalLink } from "lucide-react";
+import { useState } from "react";
 
 export function StickyBonusBanner() {
   const [isVisible, setIsVisible] = useState(true);
@@ -17,7 +17,7 @@ export function StickyBonusBanner() {
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 100, opacity: 0 }}
-          transition={{ duration: 0.5, ease: 'easeOut' }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
           className="fixed bottom-0 left-0 right-0 z-50 bg-gradient-to-r from-orange-500 to-orange-600 shadow-2xl"
         >
           <div className="max-w-7xl mx-auto px-4 py-3 sm:py-4">

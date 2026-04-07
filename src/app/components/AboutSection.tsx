@@ -10,16 +10,22 @@ export default function AboutSection() {
 
         <div className="space-y-4 md:space-y-6 text-center mb-12 md:mb-16">
           <p className="text-gray-700 text-base md:text-lg leading-relaxed max-w-[900px] mx-auto">
-            Led by CEO Julian Jarvis from its headquarters in Gibraltar, Pragmatic Play is a leading supplier of player-favourite content to the most successful operator brands in the industry.
+            Led by CEO Julian Jarvis from its headquarters in Gibraltar, Pragmatic Play is a leading
+            supplier of player-favourite content to the most successful operator brands in the
+            industry.
           </p>
           <p className="text-gray-700 text-base md:text-lg leading-relaxed max-w-[900px] mx-auto">
-            Powering up new possibilities of play through a single API, we offer a multi-product portfolio of award-winning slots, live casino, bingo, virtual sports, sportsbook and more, available in all major regulated markets, languages and currencies.
+            Powering up new possibilities of play through a single API, we offer a multi-product
+            portfolio of award-winning slots, live casino, bingo, virtual sports, sportsbook and
+            more, available in all major regulated markets, languages and currencies.
           </p>
           <p className="text-gray-700 text-base md:text-lg leading-relaxed max-w-[900px] mx-auto">
-            Driven by our commitment to craft immersive experiences and responsible thrills, we supply games that players love time and time again.
+            Driven by our commitment to craft immersive experiences and responsible thrills, we
+            supply games that players love time and time again.
           </p>
           <p className="text-gray-700 text-base md:text-lg leading-relaxed max-w-[900px] mx-auto">
-            Pragmatic Play is owned by a private group of investors led by Veridian (Gibraltar) Limited.
+            Pragmatic Play is owned by a private group of investors led by Veridian (Gibraltar)
+            Limited.
           </p>
         </div>
 
